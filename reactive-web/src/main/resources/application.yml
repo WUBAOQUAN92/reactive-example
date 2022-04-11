@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/zsxq_db
+    username: root
+    password: wubq
+    pool:
+      initialSize: 10
+      maxSize: 10
+logging:
+  level:
+    org.springframework.r2dbc: DEBUG  #输出执行的sql
